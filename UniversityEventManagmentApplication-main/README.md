@@ -3,7 +3,7 @@
 ## Framework and Language used
 * Springboot
 * Java
-
+* H2 database
 ## Project Summary
 * This is a SpringBoot-based project for managing Student and Events, with endpoints for adding, retrieving, updating, and deleting information.
 
@@ -39,8 +39,7 @@
 * EventRepository
 * Used CrudRepository and Custom Query method
 
-## Data Structure used
-* ArrayList
+
 
 ## Validation
 * First character of first name should be capital.
