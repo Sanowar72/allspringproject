@@ -12,7 +12,7 @@ import java.util.Optional;
 public class UserController {
     @GetMapping(value = "/home")
     public String home(){
-        return "this is home and its only for testing routes";
+        return "this is home and its only for testing routes.......";
     }
     @Autowired
     UserServices userServices;
